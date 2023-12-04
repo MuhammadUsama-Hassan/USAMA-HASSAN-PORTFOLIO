@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="./images/favicon3.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header Section Starts -->
+    <section class="header" id="header">
+
+        <div class="logo">
+
+            <a href="#demo">Software<span>Engineer</span></a>
+
+        </div>
+
+        <div class="menu-icon">
+
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="button">
+            <a href="#Demo" onclick="showContactAlert()">Contact</a>
+        </div>
+
+
+    </section>
+
+    <!-- Header Section Ends -->
+
+    <!-- Hero Section Starts -->
+
+    <section class="hero" id="hero">
+        <div class="main-content">
+            <h4>Hi, There!</h4>
+            <h1>I'm <span >Usama Hassan</span></h1>
+            <p>As a Full-stack developer, I specialize in crafting elegant and functional user experiences through the artful design and efficient development of clean code
+            </p>
+            <h4> Links <span style="color: #13bbff;">Social Media</span></h4><br>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/usama-hassan-22b3651aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin'> </i></a>
+                <!-- <a href="#demo"><i class='bx bxl-twitter'></i></a> -->
+                <a href="https://github.com/MuhammadUsama-Hassan" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009418107163" target="_blank"><i class='bx bxl-facebook'  style="color: rgb(6, 94, 227);"></i></a>
+                <a href="https://www.instagram.com/os.ama6911/" target="_blank"><i class='bx bxl-instagram' style="color: rgb(252, 12, 12);" ></i></a>
+                <a href="https://wa.me/03242952477" target="_blank"><i class='bx bxl-whatsapp'  style="color: rgb(153, 225, 153);"></i></a>
+                
+
+            </div>
+
+            <div class="main-btn">
+                <a href="mailto: usamahk9111@gmail.com">Email Me</a>
+                <button id="CV" style="border-radius: 5px; height: 41px; width: 103px; background-color: rgb(255, 243, 185);"  onclick="downloadFile()">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section Ends -->
+
+    <!-- About Section Starts -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./images/img22.png" alt="">
+        </div>
+
+        <div class="about-text">
+
+            <div class="heading-section">
+
+                <h1>I'm Full-Stack <span>Software</span>Engineer</h1>
+
+            </div>
+
+            <div class="exp-section">
+
+                <p class="exp">
+                    Experience: <span> 01 Year</span>
+                </p>
+
+                <p class="exp">
+                    Specialty: <span> Front-end, Back-end, Hosting</span>
+                </p>
+
+                <p class="exp">
+                    Address: <span> Garden Town Karachi, Pakistan</span>
+                </p>
+
+                <p class="exp">
+                    Email: <span> usamahk9111@gmail.com</span>
+                </p>
+
+                <p class="exp">
+                    Phone: <span> +92 324 2952477</span>
+                </p>
+
+            </div>
+
+
+
+            <a href="https://github.com/MuhammadUsama-Hassan" target="_blank" class="exp-button">View All Project</a>
+            
+
+
+        </div>
+    </section>
+
+    <!-- About Section Ends -->
+
+    <!-- Services Section Starts -->
+
+    <section class="service" id="service">
+
+
+        <div class="service-heading">
+            <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="service-content">
+
+            <div class="service-box">
+
+                <img src="./images/s-1.svg" alt="">
+
+                <h3>.NET</h3>
+                <p>.NET Framework has been with the .NET Framework. However, with the introduction of .NET Core, .NET applications can now run on multiple platforms.
+                </p>
+
+                <!-- <a href="#demo">Download Now
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a> -->
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="./images/s-2.svg" alt="">
+
+                <h3>Mern Stack</h3>
+                <p>MongoDB: A NoSQL database,Express:framework for server-side development,React:JS library for building UI,Node: A JavaScript runtime for server-side.
+                </p>
+
+               
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="./images/s-3.svg" alt="">
+
+                <h3>projects</h3>
+                <p>We make customiz projects as per client's need in difference frameworks, like MERN , Deskstop, website and mobile applications, on react Native
+                </p>
+
+               
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Services Section Ends -->
+
+    <!-- Portfolio Section Starts -->
+
+    <section class="Portfolio" id="Portfolio">
+
+
+        <div class="portfolio-heading">
+            <h2>My <span>Portfolio</span></h2>
+        </div>
+
+        <div class="portfolio-content">
+
+            <div class="portfolio-box">
+
+                <img src="./images/port-1.jpg" alt="">
+
+                <p>Website Design</p>
+                <a href="https://github.com/MuhammadUsama-Hassan/testweb" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <h3>Herry Porter Liabrary<span>Usama</span></h3>
+
+
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="./images/port-2.jpg" alt="">
+
+
+                <p>Website Design</p>
+                <a href=" https://github.com/MuhammadUsama-Hassan/Netflix-cone-web-page-design" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <h3>Netflic Clone Design<span>Usama</span></h3>
+
+
+
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="./images/port-3.jpg" alt="">
+
+
+                <p>Website Design</p>
+                <a href="https://github.com/MuhammadUsama-Hassan/My-Project" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <h3> Test Website For <span>Usama</span></h3>
+
+
+
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="./images/port-4.jpg" alt="">
+
+
+                <p>Website Design</p>
+                <a href="https://github.com/MuhammadUsama-Hassan/decentrailiez-app-" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <h3>decentrailiez-app <span>Usama</span></h3>
+
+
+
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="./images/port-5.jpg" alt="">
+
+
+                <p>Website Design</p>
+                <a href="https://github.com/MuhammadUsama-Hassan/Trim-function" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <h3>Trim Fucntion <span>Usama</span></h3>
+
+
+
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="./images/port-6.jpg" alt="">
+
+                <p>Website Design</p>
+                <a href="https://github.com/MuhammadUsama-Hassan/Simple-Calculator-device" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <h3>Scientific Calculator <span>Usama</span></h3>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Portfolio Section Ends -->
+
+    <!-- Contact Section Starts -->
+
+    <section class="Contact" id="Contact">
+        <div class="Contact-Heading">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="Contact-Form">
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <br> <br>
+                <input type="text" id="name" placeholder="Your Name..." required>
+
+                <label for="email">Email Address:</label>
+                <br> <br>
+                <input type="email" id="email" placeholder="Email Address..." required>
+
+                <label for="message">Message:</label>
+                <br> <br>
+                <textarea id="message" cols="30" rows="5" placeholder="Write Message Here..." required></textarea>
+
+                <input type="submit" value="Send Message" class="contact-btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section Ends -->
+
+    <!-- Footer Section Starts -->
+
+    <section class="Footer">
+
+        <div>
+            <p>2023 Usama Hassan, All Rights Reserved</p>
+        </div>
+
+        <a href="#"><i class='bx bxs-up-arrow-circle'></i></a>
+
+    </section>
+
+
+    <!-- Footer Section Ends -->
+
+
+
+
+
+
+</body>
+
+</html>
